@@ -17,13 +17,20 @@ First, spin up a Mongo Database locally
 docker run --name mongo -p 27017:27017 -d mongo
 ```
 
-
+Then, run the application
 ```bash
 # development
 $ npm run start
 
 # watch mode
 $ npm run start:dev
+```
+
+After the application starts, you can open up the GraphQL console.
+
+```bash
+$ localhost:3000/graphql
+```
 
 ## Support
 
